@@ -1,0 +1,5 @@
+{
+  "feature_selector__k": 68,
+  "classifier__C": 1.0,
+  "classifier__l1_ratio": 0.5
+}

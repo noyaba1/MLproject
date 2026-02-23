@@ -1,0 +1,14 @@
+
+================================================================================
+***  DISCLAIMER: UNLABELED SAMPLE PREDICTIONS  ***
+================================================================================
+The following predictions are made on samples WITHOUT ground truth labels.
+
+- NO EVALUATION IS POSSIBLE (no ground truth exists)
+- These predictions are NOT clinically validated
+- Use only for exploratory analysis / demonstration purposes
+- The model was trained on a limited labeled subset
+- Predictions may not generalize well to other samples
+
+This is a DEMONSTRATION of potential clinical utility, NOT a validated result.
+================================================================================

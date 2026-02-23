@@ -1,0 +1,23 @@
+{
+  "n_labeled_samples": 70,
+  "n_unlabeled_samples": 1148,
+  "n_genes": 20530,
+  "p_n_ratio": 293.3,
+  "label_distribution": {
+    "LumB": 25,
+    "LumA": 18,
+    "Basal": 15,
+    "Her2": 11,
+    "Normal": 1
+  },
+  "imbalance_ratio": 25.0,
+  "min_class": "Normal",
+  "min_class_count": 1,
+  "value_range": [
+    0.0,
+    20.2905
+  ],
+  "likely_log_transformed": true,
+  "missing_pct": 0.0,
+  "low_variance_genes": 909
+}

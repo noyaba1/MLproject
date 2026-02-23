@@ -1,0 +1,17 @@
+{
+  "raw_label_rows": 141,
+  "unique_after_dedup": 74,
+  "after_unknown_exclusion": 70,
+  "used_in_training": 69,
+  "normal_excluded": 1,
+  "unlabeled": 1148,
+  "expression_samples": 1218,
+  "n_genes": 20530,
+  "label_distribution": {
+    "LumB": 25,
+    "LumA": 18,
+    "Basal": 15,
+    "Her2": 11,
+    "Normal": 1
+  }
+}

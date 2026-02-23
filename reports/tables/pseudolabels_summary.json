@@ -1,0 +1,25 @@
+{
+  "run_id": "20260223_202318",
+  "model_name": "ElasticNet",
+  "model_hash": "f9af9b57",
+  "timestamp": "2026-02-23T20:23:18.204903",
+  "selection_criteria": {
+    "proba_threshold": 0.95,
+    "margin_threshold": 0.2
+  },
+  "statistics": {
+    "n_total_unlabeled": 1148,
+    "n_selected": 467,
+    "n_rejected": 681,
+    "selection_rate": 0.406794425087108,
+    "proba_threshold": 0.95,
+    "margin_threshold": 0.2,
+    "selected_distribution": {
+      "LumA": 237,
+      "Basal": 134,
+      "LumB": 72,
+      "Her2": 24
+    }
+  },
+  "warning": "PSEUDO-LABELS ARE NOT GROUND TRUTH - USE FOR EXPLORATION ONLY"
+}

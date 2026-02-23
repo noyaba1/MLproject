@@ -1,0 +1,62 @@
+{
+  "ElasticNet": {
+    "f1_macro": {
+      "test_mean": 0.8650180375180374,
+      "test_std": 0.08023558055360701,
+      "train_mean": 1.0,
+      "train_std": 0.0
+    },
+    "f1_weighted": {
+      "test_mean": 0.8678866371723515,
+      "test_std": 0.07020556143210993,
+      "train_mean": 1.0,
+      "train_std": 0.0
+    },
+    "accuracy": {
+      "test_mean": 0.8703296703296705,
+      "test_std": 0.06911729755391821,
+      "train_mean": 1.0,
+      "train_std": 0.0
+    }
+  },
+  "SVM": {
+    "f1_macro": {
+      "test_mean": 0.8680303030303032,
+      "test_std": 0.11351751360612511,
+      "train_mean": 0.9611911533130364,
+      "train_std": 0.026831943315804966
+    },
+    "f1_weighted": {
+      "test_mean": 0.8653546453546455,
+      "test_std": 0.11726810028568954,
+      "train_mean": 0.9600360819262574,
+      "train_std": 0.02667741154355977
+    },
+    "accuracy": {
+      "test_mean": 0.8692307692307691,
+      "test_std": 0.11464440752303275,
+      "train_mean": 0.9601948051948052,
+      "train_std": 0.0266183080382664
+    }
+  },
+  "RandomForest": {
+    "f1_macro": {
+      "test_mean": 0.8587970362970363,
+      "test_std": 0.10626473426347921,
+      "train_mean": 1.0,
+      "train_std": 0.0
+    },
+    "f1_weighted": {
+      "test_mean": 0.8511702583131153,
+      "test_std": 0.1038753909881064,
+      "train_mean": 1.0,
+      "train_std": 0.0
+    },
+    "accuracy": {
+      "test_mean": 0.856043956043956,
+      "test_std": 0.10025929431171028,
+      "train_mean": 1.0,
+      "train_std": 0.0
+    }
+  }
+}
