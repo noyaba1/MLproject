@@ -1,8 +1,8 @@
 {
-  "run_id": "20260223_202318",
+  "run_id": "20260223_205024",
   "model_name": "ElasticNet",
   "model_hash": "f9af9b57",
-  "timestamp": "2026-02-23T20:23:18.204903",
+  "timestamp": "2026-02-23T20:50:24.486397",
   "selection_criteria": {
     "proba_threshold": 0.95,
     "margin_threshold": 0.2
