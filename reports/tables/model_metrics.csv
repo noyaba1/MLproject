@@ -1,0 +1,2 @@
+model,f1_macro_mean,f1_macro_std,f1_macro_train,f1_weighted_mean,f1_weighted_std,f1_weighted_train,accuracy_mean,accuracy_std,accuracy_train,shuffled_f1,overfit_gap
+ElasticNet,0.8557,0.0594,1.0,0.851,0.0516,1.0,0.8549,0.0454,1.0,0.3218,0.1443

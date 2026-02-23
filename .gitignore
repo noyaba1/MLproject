@@ -54,7 +54,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-data/
-*.csv
-*.tsv
