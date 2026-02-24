@@ -72,7 +72,7 @@ Class imbalance ratio (LumB/Her2): 2.3× — handled via Stratified CV and `clas
 
 ---
 
-## Processing Rules (Explicit, No Auto-Magic)
+## Data Processing Rules
 
 ### 1. Orientation Detection
 ```
@@ -137,7 +137,6 @@ Exclude samples where PAM50 label is in:
 .
 ├── README.md                    # This file
 ├── requirements.txt             # Python dependencies
-├── environment.yml              # Conda environment
 ├── app.py                       # Streamlit dashboard application
 │
 ├── data/                        # Data files (place here)
@@ -170,14 +169,9 @@ Exclude samples where PAM50 label is in:
 ### 1. Setup Environment
 
 ```bash
-# Using pip
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-
-# OR using conda
-conda env create -f environment.yml
-conda activate pam50
 ```
 
 ### 2. Place Data Files
@@ -354,7 +348,7 @@ Run all 5 notebooks first (01 → 05) to generate the required files in `reports
 
 ## Appendix: High-Confidence Pseudo-Labeling (Experimental)
 
-### ⚠ NOT GROUND TRUTH
+### Important: Pseudo-Labels Are Not Ground Truth
 
 Pseudo-labels are model predictions, not validated PAM50 subtypes. They should **NEVER** be used for:
 - Model evaluation
