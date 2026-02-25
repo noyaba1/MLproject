@@ -45,9 +45,6 @@ env/
 # reports/tables/
 # reports/logs/
 
-# Model files (can be regenerated)
-reports/*.pkl
-
 # OS files
 .DS_Store
 Thumbs.db
