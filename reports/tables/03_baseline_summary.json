@@ -1,0 +1,17 @@
+{
+  "pipeline": "supervised_baseline",
+  "pca_fit_on": "labeled_training_fold_only",
+  "N_COMPONENTS": 23,
+  "OUTER_FOLDS": 5,
+  "INNER_FOLDS": 3,
+  "VAR_THRESH": 0.01,
+  "f1_macro_mean": 0.699,
+  "f1_macro_std": 0.1166,
+  "accuracy_mean": 0.711,
+  "per_class_f1": {
+    "Basal": 0.9032,
+    "Her2": 0.6087,
+    "LumA": 0.7727,
+    "LumB": 0.55
+  }
+}

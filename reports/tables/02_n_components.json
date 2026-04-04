@@ -1,0 +1,9 @@
+{
+  "N_COMPONENTS": 23,
+  "n_80_full": 69,
+  "n_80_labeled": 36,
+  "max_safe": 23,
+  "n_labeled": 69,
+  "n_unlabeled": 1149,
+  "VAR_THRESH": 0.01
+}

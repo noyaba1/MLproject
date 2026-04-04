@@ -1,0 +1,17 @@
+{
+  "pipeline": "semisupervised",
+  "pca_fit_on": "labeled_training_fold_plus_all_unlabeled",
+  "N_COMPONENTS": 23,
+  "OUTER_FOLDS": 5,
+  "INNER_FOLDS": 3,
+  "VAR_THRESH": 0.01,
+  "f1_macro_mean": 0.8038,
+  "f1_macro_std": 0.0788,
+  "accuracy_mean": 0.7989,
+  "per_class_f1": {
+    "Basal": 0.9677,
+    "Her2": 0.72,
+    "LumA": 0.8421,
+    "LumB": 0.6818
+  }
+}

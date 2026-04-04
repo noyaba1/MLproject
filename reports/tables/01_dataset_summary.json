@@ -1,0 +1,20 @@
+{
+  "n_labeled": 69,
+  "n_unlabeled": 1149,
+  "n_genes": 20530,
+  "pn_ratio": 297.5,
+  "classes": [
+    "Basal",
+    "Her2",
+    "LumA",
+    "LumB"
+  ],
+  "class_counts": {
+    "Basal": 15,
+    "Her2": 11,
+    "LumA": 18,
+    "LumB": 25
+  },
+  "expr_min": 0.0,
+  "expr_max": 20.2905
+}
